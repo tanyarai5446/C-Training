@@ -3,16 +3,18 @@
 int main()
 {
    int arr[5]={1,-2,3,-4,6};
-    int maxsum=0;
-    int cursum=0;
-    for(int i=0; i<=5;i++){
+    int maxsum=arr[0];
+    int cursum=arr[0];
+    for(int i=1; i<5;i++){
+        if(cursum<0){
+            cursum=arr[i];
+        }
+        else
         cursum=cursum+arr[i];
         if(cursum>maxsum){
             maxsum=cursum;
         }
-        if(cursum<0){
-            cursum=0;
-        }
+        
     }
     printf("%d",maxsum);
 }
