@@ -10,8 +10,8 @@ int main() {
     printf("a | b = %d\n", a | b);   // OR  → 0111 = 7
     printf("a ^ b = %d\n", a ^ b);   // XOR → 0110 = 6
     printf("~a = %d\n", ~a);         // NOT → 1010 (in 2's complement, ~5 = -6)
-    printf("a << 1 = %d\n", a << 1); // Left shift → 1010 = 10
-    printf("a >> 1 = %d\n", a >> 1); // Right shift → 0010 = 2
+    printf("a << 1 = %d\n", a << 1); // Left shift → 1010 = 10(multiply by 2)
+    printf("a >> 1 = %d\n", a >> 1); // Right shift → 0010 = 2(divide ny 2)
 
     return 0;
 }
