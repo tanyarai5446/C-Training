@@ -6,6 +6,14 @@ int arraySUM(int a[],int n)
     return 0;
     return a[n-1]+arraySUM(a,n-1);
 }
+int power(int b,int p)
+{
+  if(p==0)
+  return 1;
+  else if(p==1)
+  return b;
+  return b*power(b,p-1);
+}
 int fabonacci(int a)
 {
     
@@ -53,4 +61,5 @@ int main()
     int a[3]={3,2,4};
     int n=3;
     printf("\n%d",arraySUM(a,n));
+    printf("\n%d",power(2,3));
 }
