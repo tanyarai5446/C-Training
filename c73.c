@@ -6,10 +6,12 @@ int main(){
     
     fgets(s,100,stdin);
     int l=strlen(s);
-    for(i=0;s[i]!='\0';i++){
+    for(i=0;s[i]!='\0';i++)
+    {
         str[i]=s[i];
     }
-    for(i=0;str[l-1]=str[l-1]/10;i++){
+    for(i=0;str[l-1]=str[l-1]/10;i++)
+    {
         char ld=s[l-1]/10;
         s2[i]=ld;
     }
@@ -19,7 +21,6 @@ for(i=0;s2[i]!='\0';i++)
     if(s2[i]!=str[i]){
     flag=0;
     break;}
-
 }
 if(flag==1)
 printf("palindrome");
