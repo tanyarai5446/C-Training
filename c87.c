@@ -17,13 +17,16 @@ int main()
     {
         scanf("%d",&b[i]);
     }
-    for(int i=0;i<n;i++){
-        for(int j=0;j<m;j++){
-            if(a[i]==b[j]){
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<m;j++)
+        {
+            if(a[i]==b[j])
+            {
             printf("%d",a[i]);
             //c[k++]=a[i];
             //break;
-        }
+            }
         else
         printf("no common element");goto a;
         }
