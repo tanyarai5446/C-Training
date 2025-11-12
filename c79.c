@@ -16,11 +16,15 @@ int main()
 
     int found = 0;
     // Check all substrings
-    for(int i=0; i<len; i++) {
-        for(int j=i+1; j<=len; j++) {
+    for(int i=0; i<len; i++) 
+    {
+        for(int j=i+1; j<=len; j++) 
+        {
             int left = i, right = j-1, isp = 1;
-            while(left < right) {
-                if(str[left] != str[right]) {
+            while(left < right) 
+            {
+                if(str[left] != str[right]) 
+                {
                     isp = 0;
                     break;
                 }
