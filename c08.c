@@ -49,6 +49,7 @@ int main()
     case 4:printf("exiting");return 0;
            
     default:printf("invalid choice");
-    } }
+    } 
+  }
   return 0; 
-    }
+}
