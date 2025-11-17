@@ -1,6 +1,5 @@
 // Password verification without using string functions
 #include <stdio.h>
-
 int main() {
     char correctPassword[] = "TrainSecure123";
     char input[100];
