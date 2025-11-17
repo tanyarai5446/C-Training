@@ -1,5 +1,6 @@
 //grade system using if else
 #include<stdio.h>
+
 int main()
 {
     int marks;
