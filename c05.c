@@ -28,5 +28,4 @@ int main()
     else
      printf("inavlid choice");
     return 0;
-
-    }
+}
