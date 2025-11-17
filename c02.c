@@ -28,7 +28,6 @@ int main() {
         if (ch >= '0' && ch <= '9') {
             hasDigit = 1;
         }
-
         i++;
     }
 
