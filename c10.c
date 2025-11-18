@@ -9,7 +9,8 @@ int main()
     printf("1-->dollar conversion\n2-->pound conversion\n3-->yen conversion\n4-->baht conversion\n5-->yuan conversion\nenter your choice");
     scanf("%d",&ch);
 
-    switch(ch){
+    switch(ch)
+    {
         case 1:x=(float)(curr/87.85);
                printf("%.2f to dollar =%.4f",curr,x);
                break;
@@ -26,7 +27,6 @@ int main()
                printf("%.2f to chinese yuan =%.4f",curr,x);
                break;       
         default:printf("invalid choice");
-
     }
     return 0;
 }
