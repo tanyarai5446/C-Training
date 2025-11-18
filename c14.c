@@ -1,5 +1,6 @@
 //factorial of a number
 #include<stdio.h>
+
 int main()
 {
    unsigned long long int fac=1;
