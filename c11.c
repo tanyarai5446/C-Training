@@ -5,7 +5,8 @@ int main()
     int ch;
     printf("enetr number btw 1-7: ");
     scanf("%d",&ch);
-    switch(ch){
+    switch(ch)
+    {
         case 1:printf("monday");
                break;
         case 2:printf("tuesday");
@@ -22,13 +23,8 @@ int main()
                break;
         default:printf("madarchodh teri choice galat hai lodu");
                  break;
-
-
-
     }
     return 0;
-
-
 }
 
     
