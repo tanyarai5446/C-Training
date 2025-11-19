@@ -12,6 +12,6 @@ int main()
         prod*=digit;
         i/=10;
     }
-    printf("product of digits=%d",prod);
+    printf("\nproduct of digits=%d",prod);
     return 0;
 }
