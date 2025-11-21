@@ -9,5 +9,4 @@ int main()
     int s=k-z;
     printf("missing element=%d",s);
     return 0;
-
 }
