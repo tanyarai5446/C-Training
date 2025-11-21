@@ -23,8 +23,6 @@ int main()
     scanf("%d", &n);
     int a = n;
     int k=magic_number(a);
-    
-
     if (k== 1)
         printf("Number is a magic number\n");
     else
