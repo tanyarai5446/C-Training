@@ -1,6 +1,5 @@
 #include<stdio.h>
 //print array
-
 int main()
 {
     int a[6];
