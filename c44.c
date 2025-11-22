@@ -14,7 +14,8 @@ int maxarraysum(int a[],int n,int k){
     }return maxsum;
 
 }
-int main(){
+int main()
+{
     int a[7]={1,2,-4,-5,4,3,7},max,i,j,k=3,n;
    
     n= sizeof(a)/sizeof(a[0]);
