@@ -11,7 +11,7 @@ int main()
      scanf("%d",&a[i]);
     for(j=0;j<6;j++)
      if(a[j]==k)
-      count++;
+     count++;
     printf("element %d is occuring %d times",k,count);
     return 0;
 }       
