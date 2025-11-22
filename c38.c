@@ -1,6 +1,7 @@
 //palindrome array
 #include<stdio.h>
-int main(){
+int main()
+{
     int a[5]={1,2,3,2,1},isp=1;
     for(int i=0,j=4;i<5;i++,j--){
     
@@ -10,7 +11,7 @@ int main(){
                 } 
              if(isp==0){printf(" not palindrome");}
             else {printf("palindrome");}
-            }
+}
 /*#include<stdio.h>
 int main()
 {
