@@ -8,8 +8,6 @@ int max_of_array(int a[6])
      if(a[i]>max)
       max=a[i];
     return max;
-      
-
 }
 int min_of_array(int a[6])
 {
@@ -18,8 +16,6 @@ int min_of_array(int a[6])
      if(a[i]<min)
       min=a[i];
     return min;
-      
-
 }
 int main()
 {
