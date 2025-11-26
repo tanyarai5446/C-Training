@@ -6,15 +6,19 @@ int main(){
     scanf("%d",&n);
     while(l<=h){
         int mid=(l+h)/2;
-        if(a[mid]==n){
+        if(a[mid]==n)
+        {
             printf("element found at %d",mid);
             return 0;
         }
-        else if(a[mid]<n){
+        else if(a[mid]<n)
+        {
             l=mid+1;
         }
-        else{
+        else
+        {
             h=mid-1;
         }
-    }printf("element not found");
+    }
+    printf("element not found");
 }
