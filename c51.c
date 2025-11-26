@@ -7,7 +7,6 @@ int main()
     printf("element to be searched:");
     scanf("%d",&key);
     printf("array elements");
-
     for(int i=0;i<6;i++)
      scanf("%d",&a[i]);
     for(int j=0;j<6;j++)
