@@ -1,5 +1,5 @@
 #include<stdio.h>
-//count even and odd elements in an array
+//count no .of even and odd elements in an array
 int main()
 {
     int a[6];
