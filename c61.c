@@ -7,7 +7,7 @@ int main()
      int a[n],b[m],*p1=a,*p2=b,flag=0;
      if(sizeof(a)!=sizeof(b))
       printf("array not equal");
-    else if(n==m)
+     else if(n==m)
      {
       printf("enter first array elements:");
      for(int i=0;i<n;i++)
@@ -29,5 +29,4 @@ int main()
       else
        printf("array is equal");
      }
-    
 }
