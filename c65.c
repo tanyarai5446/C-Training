@@ -11,7 +11,6 @@ int max(int *p,int m,int n)
       p++;
      } 
     return max;  
-
 }
 int min(int *p,int m,int n)
 { 
@@ -27,7 +26,8 @@ int min(int *p,int m,int n)
 }
 int main()
 {
-    int m,n;printf("Enter number of rows:");scanf("%d",&m);
+    int m,n;
+    printf("Enter number of rows:");scanf("%d",&m);
     printf("Enter number of coloumn:");scanf("%d",&n);
     int a[m][n];
     printf("Enter elements of array:");
