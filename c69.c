@@ -2,7 +2,8 @@
 //2d array input and output
 int main()
 {
-    int m,n;printf("Enter number of rows:");scanf("%d",&m);
+    int m,n;
+    printf("Enter number of rows:");scanf("%d",&m);
     printf("Enter number of coloumn:");scanf("%d",&n);
     int a[m][n];
     printf("Enter elements of array:");
@@ -13,6 +14,5 @@ int main()
      for(int j=0;j<n;j++){
       printf("%d ",a[i][j]);}
         printf("\n");}
-    return 0;
-        
+    return 0; 
 }
