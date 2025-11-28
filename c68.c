@@ -2,7 +2,8 @@
 //2d to 1d array conversion
 int main()
 {
-    int m,n;printf("Enter number of rows:");scanf("%d",&m);
+    int m,n;
+    printf("Enter number of rows:");scanf("%d",&m);
     printf("Enter number of coloumn:");scanf("%d",&n);
     int a[m][n],b[m*n],count=0;
     printf("Enter elements of array:");
@@ -11,9 +12,10 @@ int main()
       scanf("%d",&a[i][j]);
 // Print the original 2D array
     printf("Original 2D array:\n");
-    for(int i=0;i<m;i++) {
+    for(int i=0;i<m;i++)
+    {
         for(int j=0;j<n;j++)
-            printf("%d ", a[i][j]);
+            printf("%d ", a[i][j]);          
         printf("\n");
     }
 // Convert 2D array to 1D array
