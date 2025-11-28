@@ -2,7 +2,8 @@
 //columnwise sum of 2d array
 int main()
 {
-    int m,n;printf("Enter number of rows:");scanf("%d",&m);
+    int m,n;
+    printf("Enter number of rows:");scanf("%d",&m);
     printf("Enter number of coloumn:");scanf("%d",&n);
     int a[m][n];
     printf("Enter elements of array:");
