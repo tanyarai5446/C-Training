@@ -26,6 +26,6 @@ int main()
         printf("\n%c is %d times",str[i],count);
         else
         printf("\n%c is %d time",str[i],count);
-       }
+        }
     }
 }
