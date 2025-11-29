@@ -15,7 +15,6 @@ int main()
         int count=1;
         if(str[i]!='0'&& str[i]!=' ')
         {   
-            
         for(int j=i+1;j<len-1;j++)
         {
         if(str[i]==str[j])
