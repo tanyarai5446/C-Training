@@ -29,8 +29,7 @@ int main()
         }
         else
         printf("\n%c is %d time",str[i],count);
-        
-       }
+        }
     }
     printf("\nstring after removing duplicates is %s",str2);
 }
