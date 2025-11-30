@@ -3,7 +3,7 @@
 //string duplicate count using frequency array using ascii values
 int main()
 {
-    char str[]="hijgtyjki";
+    char str[]="hijgtyjkinjk";
     int freq[256]={0};
     int ln=strlen(str);
     for(int i=0;i<ln;i++)
