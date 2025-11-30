@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include<string.h>
 //substring palindrome check
@@ -7,7 +6,8 @@ int main()
     char str[100];
     fgets(str,100,stdin);
     int len = strlen(str);
-    if(str[len-1] == '\n') {
+    if(str[len-1] == '\n') 
+    {
         str[len-1] = '\0';
         len--;
     }
@@ -31,7 +31,8 @@ int main()
                 left++;
                 right--;
             }
-            if(isp && (j-i) > 1) { // Only print substrings longer than 1
+            if(isp && (j-i) > 1) 
+            { // Only print substrings longer than 1
                 found = 1;
                 printf("Palindrome substring: ");
                 for(int k=i; k<j; k++)
