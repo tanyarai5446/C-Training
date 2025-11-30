@@ -2,8 +2,6 @@
 
 // Ex :-  "abcdabchs" find whether "abc" is present or not?
 //  O/P :- Substring exists 
-
-
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -20,7 +18,6 @@ int main()
     {
         ln++;
     }
-
     for( i=0;i<ln-k;i++)
     {
         for(j=i,l=0;j<i+k;j++,l++)
