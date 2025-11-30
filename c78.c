@@ -17,10 +17,13 @@ int main()
     {
         printf("not anagram");
         return 0;
-}else{
+    }
+    else
+    {
     for(int i=0;i<len1-1;i++)
     {   
-        if(str1[i]!='0' && str1[i]!=' '){
+        if(str1[i]!='0' && str1[i]!=' ')
+        {
         for(int j=0;j<len1-1;j++)
         {   
             if(str1[i]==str2[j])
@@ -32,7 +35,8 @@ int main()
             {
                 continue;
             }
-        }}
+        }
+        }
     }
         if(check==(len1-1))
         {
@@ -42,5 +46,6 @@ int main()
         {
             printf("not anagram");
     
-        }}
+        }
     }
+}
