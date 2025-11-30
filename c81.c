@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string.h>
 //string// Wap to short an string using bubble sort
-
 int main()
 {
     char str[] = "tanya";
@@ -13,7 +12,6 @@ int main()
     {
         freq[str[i]]++;
     }
-
     printf("Original string: %s\n", str);
     printf("Sorted string: ");
 
@@ -26,7 +24,6 @@ int main()
             freq[i]--;
         }
     }
-
     printf("\n");
     return 0;
 }
