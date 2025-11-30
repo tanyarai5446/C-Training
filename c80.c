@@ -23,5 +23,4 @@ int main(){
         }
     }
     printf("max occurring char is %c with frequency %d",result,max);
-
 }
