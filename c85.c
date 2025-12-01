@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 //program to find nth smallest number in an array
-int main(){
+int main()
+{
     int arr[]={4,5,1,0,7,8};
     for(int i=0;i<6;i++)
     {
