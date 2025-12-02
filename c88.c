@@ -17,7 +17,8 @@ bool ValidPal(char *s){
     int left = 0 , right = strlen(s)-1;
     while (left<right)
     {
-         if(s[left]!=s[right]){
+         if(s[left]!=s[right])
+         {
             return isPalindrome(s,left+1,right) ||
             isPalindrome(s,left,right-1) ;
         }
@@ -30,10 +31,12 @@ int main(){
     char s[100];
     printf("Enter a string: ");
     scanf("%s",s);
-    if(ValidPal(s)){
+    if(ValidPal(s))
+    {
         printf("Yes it can be valid palindrom on one character removal");
     }
-    else{
+    else
+    {
         printf("aint valid palidrome even after removing one");
     }
 }
