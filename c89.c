@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 int main()
-{//malloc be default garbage value
+{   //malloc be default garbage value
     //calloc by default stores 0
     //free to free the extra space in array left unused
     //relloc
