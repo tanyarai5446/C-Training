@@ -35,7 +35,7 @@ int main()
     // Print intersection
     //printf("Common elements: ");
     //for(int i = 0; i < k; i++)
-      //  printf("%d ", c[i]);
+    //  printf("%d ", c[i]);
     a:
     return 0;
 }
