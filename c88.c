@@ -12,8 +12,8 @@ bool isPalindrome(char *s, int left, int right){
     }
     return true;
 }
-
-bool ValidPal(char *s){
+bool ValidPal(char *s)
+{
     int left = 0 , right = strlen(s)-1;
     while (left<right)
     {
