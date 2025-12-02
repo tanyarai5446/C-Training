@@ -15,7 +15,6 @@ int main()
       left_max[i]=(a[i] > left_max[i-1]) ? a[i] : left_max[i-1];
     }
     
-    
     right_max[n-1]=a[n-1];
     for(int i=n-2;i>=0;i--)
     {
