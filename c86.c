@@ -20,5 +20,4 @@ int main(){
         b[j++]=a[i];}
         printf("%d\t",b[i]);
     }
-
 }
