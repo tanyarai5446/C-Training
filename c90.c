@@ -17,7 +17,8 @@ int main()
         c[k++]=a[i];
     }
     int i=0;
-    while(i<n){
+    while(i<n)
+    {
         if(a[i]<0)
         c[k++]=a[i];
         i++;
