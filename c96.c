@@ -16,7 +16,6 @@ int power(int b,int p)
 }
 int fabonacci(int a)
 {
-    
     if(a==1)//1st fabonacci no
     return 0;
     else if(a==2)//2nd fabonacci no
