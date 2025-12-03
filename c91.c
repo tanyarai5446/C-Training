@@ -1,4 +1,4 @@
-//trapping water in between building
+//trapping rain water in between building
 #include<stdio.h>
 int main()
 {
@@ -14,13 +14,10 @@ int main()
     { 
       left_max[i]=(a[i] > left_max[i-1]) ? a[i] : left_max[i-1];
     }
-    
     right_max[n-1]=a[n-1];
     for(int i=n-2;i>=0;i--)
-    {
-        
-        right_max[i]=(a[i]>right_max[i+1])? a[i] : right_max[i+1];
-        
+    { 
+        right_max[i]=(a[i]>right_max[i+1])? a[i] : right_max[i+1];  
     }
     // for(int m=0;m<n;m++)
     // {
@@ -39,7 +36,6 @@ int main()
         else
         min=right_max[i];
         w+=min-a[i];
-
     }
     printf("%d",w);
 }
