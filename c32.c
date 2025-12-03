@@ -27,6 +27,5 @@ int main()
         printf("Number is a magic number\n");
     else
         printf("Number is not a magic number\n");
-
     return 0;
 }
