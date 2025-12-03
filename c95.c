@@ -3,7 +3,8 @@
 int main()
 {
    int a[4]={1,2,3,4};
-   int total=0,sum=0;
+   int total=0;
+   int sum=0;
    for(int i=0;i<4;i++)
    {  
       total^=a[i];
