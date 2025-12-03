@@ -1,4 +1,4 @@
-//swap using xor
+//swap using xor operation
 #include<stdio.h>
 int main()
 {
