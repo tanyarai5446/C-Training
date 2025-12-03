@@ -1,4 +1,4 @@
-//xor
+//xor operation
 #include<stdio.h>
 int main()
 {
