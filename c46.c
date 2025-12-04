@@ -13,7 +13,8 @@ int main()
         }
         else
         cursum=cursum+arr[i];
-        if(cursum>maxsum){
+        if(cursum>maxsum)
+        {
             maxsum=cursum;
         }
     }
