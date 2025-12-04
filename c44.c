@@ -3,7 +3,8 @@
 #include<limits.h>//to 
 int maxarraysum(int a[],int n,int k){
     int maxsum=0;
-    for(int i=0;i<=n-k;i++){
+    for(int i=0;i<=n-k;i++)
+    {
         int currsum=0;
     for(int j=i;j<i+k;j++)
     {
@@ -11,8 +12,8 @@ int maxarraysum(int a[],int n,int k){
     }
     if(currsum>maxsum)
         maxsum=currsum;
-    }return maxsum;
-
+    }
+    return maxsum;
 }
 int main()
 {
