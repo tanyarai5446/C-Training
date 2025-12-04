@@ -3,14 +3,17 @@
 int main()
 {
     int a[5]={1,2,3,2,1},isp=1;
-    for(int i=0,j=4;i<5;i++,j--){
+    for(int i=0,j=4;i<5;i++,j--)
+    {
     
-            if(a[i]!=a[j]){
-               isp=0;
-               break;}
-                } 
-             if(isp==0){printf(" not palindrome");}
-            else {printf("palindrome");}
+        if(a[i]!=a[j])
+        {
+            isp=0;
+            break;
+        }
+    } 
+        if(isp==0){printf(" not palindrome");}
+        else {printf("palindrome");}
 }
 /*#include<stdio.h>
 int main()
