@@ -12,8 +12,14 @@ int main()
             break;
         }
     } 
-        if(isp==0){printf(" not palindrome");}
-        else {printf("palindrome");}
+        if(isp==0)
+        {
+            printf(" not palindrome");
+        }
+        else 
+        {
+            printf("palindrome");
+        }
 }
 /*#include<stdio.h>
 int main()
