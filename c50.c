@@ -14,7 +14,7 @@ int min_of_array(int a[6])
     int min=a[0];
     for(int i=1;i<6;i++)
      if(a[i]<min)
-     min=a[i];
+      min=a[i];
     return min;
 }
 int main()
