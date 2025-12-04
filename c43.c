@@ -3,8 +3,10 @@
 #include<stdio.h>//to minimize time complexity
 int maxarraysum(int a[],int n,int k){
     int winsum=0;
-    for(int i=0;i<k;i++){
-        winsum+=a[i];}
+    for(int i=0;i<k;i++)
+    {
+        winsum+=a[i];
+    }
     int maxsum=winsum;
     for(int j=k;j<n;j++)
     {
@@ -14,7 +16,6 @@ int maxarraysum(int a[],int n,int k){
     }
     return maxsum;
 }
-
 int main()
 {
     int a[7]={1,2,-4,-5,4,3,7},max,i,j,k=3,n;
