@@ -4,7 +4,8 @@ int main(){
     int a[5],i,n;
     n= sizeof(a)/sizeof(a[0]);
     printf("Enter 5 elements of array\n");
-    for(i=0;i<5;i++){
+    for(i=0;i<5;i++)
+    {
         scanf("%d",&a[i]);
     }
     printf("Array is\n");
@@ -24,7 +25,8 @@ int main(){
         }
     }    
     printf("\nArray in ascending order is\n");
-    for(i=0;i<5;i++){
+    for(i=0;i<5;i++)
+    {
         printf("%d ",a[i]);
     }
     return 0;
