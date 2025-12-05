@@ -4,7 +4,8 @@ int main(){
     int a[5]={1,2,3,4,5},l=0,h=4,n;
     printf("enter the element to be searched");
     scanf("%d",&n);
-    while(l<=h){
+    while(l<=h)
+    {
         int mid=(l+h)/2;
         if(a[mid]==n)
         {
