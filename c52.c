@@ -2,8 +2,7 @@
 //spiral matrix
 int main()
 {
-    int arr[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}
-    };
+    int arr[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
     int t = 0, b = 2;
     int left = 0, right = 2;
     while (t <= b && left <= right)
