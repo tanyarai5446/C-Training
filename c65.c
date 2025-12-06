@@ -27,8 +27,10 @@ int min(int *p,int m,int n)
 int main()
 {
     int m,n;
-    printf("Enter number of rows:");scanf("%d",&m);
-    printf("Enter number of coloumn:");scanf("%d",&n);
+    printf("Enter number of rows:");
+    scanf("%d",&m);
+    printf("Enter number of coloumn:");
+    scanf("%d",&n);
     int a[m][n];
     printf("Enter elements of array:");
     for(int i=0;i<m;i++)
