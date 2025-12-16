@@ -5,7 +5,8 @@
 
 bool isPalindrome(char *s, int left, int right)
 {
-    while (left<right){
+    while (left<right)
+    {
         if(s[left]!=s[right])
         {
             return false;
