@@ -3,9 +3,11 @@
 #include<stdbool.h>
 //palindrome check on removal of any character
 
-bool isPalindrome(char *s, int left, int right){
+bool isPalindrome(char *s, int left, int right)
+{
     while (left<right){
-        if(s[left]!=s[right]){
+        if(s[left]!=s[right])
+        {
             return false;
         }
         left++; right--;
