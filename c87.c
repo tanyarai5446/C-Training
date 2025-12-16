@@ -27,8 +27,8 @@ int main()
             //c[k++]=a[i];
             //break;
             }
-        else
-        printf("no common element");goto a;
+            else
+            printf("no common element");goto a;
         }
         //printf("%d",c[i]);
     }
