@@ -14,11 +14,11 @@ int main()
     int i,j,l,m;
     int count=0;
 
-    for( i=0;i<str[i]!='\0';i++)
+    for(i=0;i<str[i]!='\0';i++)
     {
         ln++;
     }
-    for( i=0;i<ln-k;i++)
+    for(i=0;i<ln-k;i++)
     {
         for(j=i,l=0;j<i+k;j++,l++)
         {
