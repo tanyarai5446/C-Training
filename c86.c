@@ -9,13 +9,15 @@ int main(){
     {
         scanf("%d",&a[i]);
     }
-    for(int i=0;i<n;i++){
-            if(a[i]<0)
-            {
-                b[j++]=a[i];
-            }
+    for(int i=0;i<n;i++)
+    {
+        if(a[i]<0)
+        {
+            b[j++]=a[i];
+        }
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++)
+    {
         if(a[i]>0){
         b[j++]=a[i];}
         printf("%d\t",b[i]);
