@@ -40,9 +40,7 @@ int sum2(int a)
 void sum(int a)
 {   
     if(a==0)
-    {
-        return ;
-    }
+    return ;
     sum(a-1);
     printf("%d ",a);
 }
